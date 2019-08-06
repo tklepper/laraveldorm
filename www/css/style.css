@@ -1,0 +1,40 @@
+#userForm, #floors, #unit, #user, #users {
+    display:none;
+}
+
+#dorms, #floors {
+    padding-top:10%;
+}
+
+#building_1_img > img, #building_2_img > img {
+    width:300px;
+}
+
+#building_2_img > img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+}
+
+.dorm, .student {
+    cursor:pointer;
+}
+
+.dorm:hover, .unit:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.room_number {
+    margin-top:-35px;
+}
+
+.occupants {
+    margin-top:-20px;
+}
+
+#unit-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5em;
+}
