@@ -32,6 +32,5 @@ Vew student details by clicking on name
 Missing Functions:
 Edit User - Available on backend but not frontend
 Delete User - Available on backend but not frontend
-List User Table - Available on backend, but not frontend
 API not secured yet
 
